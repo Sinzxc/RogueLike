@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.map-cell{
+    width: 1vw;
+    height: 1vw;
+    background: #000;
+    display: inline-block;
+    margin: 0;
+}
+.map-cell-emptyl{
+    width: 1vw;
+    height: 1vw;
+    background: #ffffff;
+    display: inline-block;
+    margin: 0;
+}
+.map-spawn{
+    width: 1vw;
+    height: 1vw;
+    background: #ff0000;
+    display: inline-block;
+    margin: 0;
+}
+.map{
+    display: grid;
+    grid-template-columns: repeat(50,1vw);
+    gap: 0;
+}
